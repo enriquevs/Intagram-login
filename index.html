@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Instagram Login</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/compiled.css">
+</head>
+<body>
+  <div class="login__container">
+    <img class="login__logo" src="https://raw.githubusercontent.com/muktek/assignment--sass-basics/master/insta-logo.png" alt="">
+
+    <div class="login__container-button">
+      <button class="login__button-login">Log in with Facebook</button>
+      <i class="login__faceb-icon fab fa-facebook-f"></i>
+    </div>
+
+    <div class="login__container-or">
+      <div class="login__line"></div>
+      <span class="login__or">OR</span>
+      <div class="login__line"></div>
+    </div>
+
+    <form id='login'>
+      <input id='email' class="login__input" type="text" placeholder="Mobile Number or Email">
+      <p class="error">You need to enter an Email or Mobile Number.</p>
+
+      <input id='name' class="login__input" type="text" placeholder="Full Name">
+      <p class="error">You need to enter your Name.</p>
+
+      <input id='username' class="login__input" type="text" placeholder="Username">
+      <p class="error">You need to enter an Username.</p>
+
+      <input id='password' class="login__input" type="text" placeholder="Password">
+      <p class="error">You need to enter a Password.</p>
+
+      <button class="login__button-signup">Sign Up</button>
+    </form>
+
+
+    <div class="login__text-terms">
+      <span>By signing up, you agree to our</span>
+      <span class="login__text-bold">Terms & Privacy Policy.</span>
+    </div>
+  </div>
+
+  <div class="login__container login__have-an-account">
+    <p class="login__text">Have an account? <span><a href="#"></a>Log in</span></p>
+  </div>
+</body>
+</html>

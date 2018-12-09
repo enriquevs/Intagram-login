@@ -1,0 +1,92 @@
+* {
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold; }
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+  border: 1px solid #E6E6E6;
+  padding: 30px 40px 40px 40px; }
+  .login__container form {
+    display: flex;
+    flex-direction: column; }
+  .login__container .error {
+    color: red;
+    font-size: 11px;
+    text-transform: uppercase;
+    display: none; }
+
+.login__have-an-account {
+  padding: 25px 40px;
+  margin-top: 10px; }
+
+.login__logo {
+  width: 175px;
+  height: 51px;
+  margin: auto;
+  margin-bottom: 20px;
+  display: inline-block; }
+
+.login__container-button {
+  position: relative;
+  padding: 5px 0; }
+
+.login__faceb-icon {
+  position: absolute;
+  top: 14px;
+  left: 40px;
+  color: #3897f0;
+  background-color: white;
+  padding: 4px; }
+
+.login__button-login, .login__button-signup {
+  background-color: #3897f0;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 16px; }
+
+.login__button-signup {
+  margin: 15px 0; }
+
+.login__container-or {
+  margin: 15px 0; }
+
+.login__or {
+  margin: 0 5px; }
+
+.login__line {
+  height: 1px;
+  background-color: grey;
+  width: 43%;
+  display: inline-block;
+  vertical-align: middle; }
+
+.login__input {
+  border: 1px solid #EFEFEF;
+  background-color: #FAFAFA;
+  margin: 5px 0;
+  height: 36px;
+  padding-left: 5px;
+  font-size: 12px;
+  opacity: 0.7; }
+
+.login__text-terms {
+  text-align: center; }
+
+.login__text-terms span {
+  display: inline-block;
+  font-size: 16px; }
+
+.login__text {
+  color: black;
+  margin: auto; }
+
+.login__text span {
+  color: #3897f0; }

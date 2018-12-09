@@ -1,0 +1,107 @@
+* {
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.login {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    border: 1px solid #E6E6E6;
+    padding: 30px 40px 40px 40px;
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .error {
+      color: red;
+      font-size: 11px;
+      text-transform: uppercase;
+      display: none;
+    }
+  }
+
+  &__have-an-account {
+    padding: 25px 40px;
+    margin-top: 10px;
+  }
+
+  &__logo {
+    width: 175px;
+    height: 51px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+
+  &__container-button {
+    position: relative;
+    padding: 5px 0;
+  }
+
+  &__faceb-icon {
+    position: absolute;
+    top: 14px;
+    left: 40px;
+    color: #3897f0;
+    background-color: white;
+    padding: 4px;
+  }
+
+  &__button-login, &__button-signup {
+    background-color: #3897f0;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  &__button-signup {margin: 15px 0;}
+
+  &__container-or {margin: 15px 0;}
+  &__or {margin: 0 5px;}
+
+ &__line {
+   height: 1px;
+   background-color: grey;
+   width: 43%;
+   display: inline-block;
+   vertical-align: middle;
+ }
+
+  &__input {
+    border: 1px solid #EFEFEF;
+    background-color: #FAFAFA;
+    margin: 5px 0;
+    height: 36px;
+    padding-left: 5px;
+    font-size: 12px;
+    opacity: 0.7;
+  }
+
+  &__text-terms {
+    text-align: center;
+  }
+
+  &__text-terms span {
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  &__text {
+    color: black;
+    margin: auto;
+  }
+
+  &__text span {
+    color: #3897f0;
+  }
+}
